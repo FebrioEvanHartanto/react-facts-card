@@ -1,3 +1,7 @@
+*{
+  box-sizing:border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282D35;
+  background-image:url(./images/reactjs-icon\ 2.png);
+  background-repeat:no-repeat;
+  background-position: 320px 120px; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav{
+  display:flex;
+  align-items:center;
+  padding: 30px 25px;
+  height:90px;
+  background-color:#21222A;
+  color:rgb(228, 228, 228);
+}
+
+nav > h2 {
+  margin-right:auto;
+  color:#66e7fe;
+  margin-left:20px;
+}
+
+nav > h3{
+  color:rgb(228, 228, 228);
+}
+
+ul > li {
+  list-style: disc;
+  text-align: left;
+  line-height: 3rem;
+}
+
+li::marker{
+  color: #66e8fe;
+  font-size:1.2rem;
+}
+
+.container{
+  color:rgb(228, 228, 228);
+}
+
+.container > h1 {
+  margin-left:20px;
+}
+
+
+
+
